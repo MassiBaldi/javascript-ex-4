@@ -25,12 +25,14 @@ for (var i = parola.length - 1; i >= 0; i--) {
 
 }
 console.log(parola_al_contrario);
+
   function sommaParola(parola_al_contrario, parola[i]) {
-    var risultato_parola_al_contrario = parola_al_contrario + parola[i];
+    var parola_al_contrario = parola_al_contrario + parola[i];
     return risultato_parola_al_contrario;
   }
   var risultato = sommaParola();
   console.log(risultato);
+
   if (parola == parola_al_contrario) {
     document.writeln('La parola è un palindromo')
   }
